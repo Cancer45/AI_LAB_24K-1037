@@ -17,7 +17,7 @@ class Agent:
                 if cell[1] == 'safe':
                     print("no fire in room", cell[0])
                 else:
-                    cell[1] = 'safe'     # 3️⃣ fix assignment
+                    cell[1] = 'safe'
                     print("fire detected and extinguished in room", cell[0])
 
         for row in self.env.grid:

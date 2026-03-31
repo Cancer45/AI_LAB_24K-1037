@@ -6,7 +6,7 @@ while True:
     if choice > 0 and choice < 4:
         break
 
-if choice == 1 and choice == 2:
+if choice == 1 or choice == 2:
     n = int(input("first number: "))
     m = int(input("second number: "))
 
